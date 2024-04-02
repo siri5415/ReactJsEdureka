@@ -1,0 +1,82 @@
+
+Redux with react:
+~~~~~~~~~~~~~~~~~
+
+-->npm i react-redux redux react-router-dom --save
+
+
+/public
+/src
+  /Actions
+  /components
+  /reducers
+  /store
+
+
+  APP components
+      -->users component
+      -->header component
+
+
+      return(
+        <div>
+            <header options={} />
+            <users count={} subtile={}/>
+        </div>
+      )
+
+
+inside header - 
+    this.props.options
+
+inside users - 
+    this.props.count
+    this.props.subtile
+
+
+utils.js
+   --> common function
+
+Constants.js
+    -->contact values
+
+
+
+conditional rendering
+{
+  <condition>
+  ?
+  return the jsx
+  :
+  return the jsx
+}
+
+
+/folder
+   -->default entry point is index file
+
+
+   
+saga Demo:
+
+-->npm i redux react-redux redux-saga redux-logger redux-devtools-extension --save
+
+       /public
+       /src
+          /Actions
+          /components
+          /containers
+          /reducers
+          /sagas
+
+
+
+Backend:
+~~~~~~~~~
+     Controllers 
+        -->Youn need to expose BAckend APIs
+
+    Models
+      --> Classes to handle the data
+    DAO
+       you will have the drivers connect with the oracle Database
